@@ -37,4 +37,7 @@ mj <- unite(mj, FullAddress, ADDRESS,
             CITY, STATE, sep = ", ")
 mj <- unite(mj, GeoAddress, FullAddress, ZIP, sep = " ")
 
-write.table(mj, file = "dea_MJ-clean.csv", sep = ",", row.names = FALSE)
+# Additional information column ----------------------------------------------
+mj$ADDL.CO.INFO[mj$ADDL.CO.INFO == ""] <- NA
+
+write.table(mj, file = "DEA-MJ_clean.csv", sep = ",", row.names = FALSE)
