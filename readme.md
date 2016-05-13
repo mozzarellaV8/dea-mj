@@ -1,13 +1,8 @@
-# U.S. Drug Enforcement Administration: list of organizations licensed to handle marijuana
+# quick cleaning: DEA list of organizations licensed to handle marijuana
 
-What follows here is some quick cleaning of data.
-**disclaimer:** R student work
+[This list](http://birrenbach.com/INSTITUTE/wp-content/uploads/2016/04/16-00257-F-Final.xlsx.pdf) magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural).
 
-#### narrative
-
-[This list](http://birrenbach.com/INSTITUTE/wp-content/uploads/2016/04/16-00257-F-Final.xlsx.pdf) magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural)
-
-So! What is here is just some simple tidying of the data in R, geared towards parsing the date observations and prepping the addresses to be geocoded. There are a few dirty solutions - ahem, the regex. Will be working to learn the regular expressions fully from here on out.
+So! What is here is just some simple tidying of the data in R, geared towards parsing the date observations and prepping the addresses to be geocoded. There are a few dirty solutions - ahem, the regex. Will be working to learn regular expressions fully from here on out.
 
 #### Registration Date wrangling
 
