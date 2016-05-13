@@ -34,7 +34,7 @@ From there went on to `separate` the dates into their own Month, Date, and Year 
 
 #### Addresses for geocoding
 
-The address information was originally provided in four columns: ADDRESS.1, ADDRESS.2, CITY, and STATE. My thinking was, it'd be a mess to try to geocode using information from 4 columns, so through a dirty process ended up united these four into one. Also preserved the CITY and STATE columns, in the event that those might be quantified for study. 
+The address information was originally provided in four columns: `ADDRESS.1`, `ADDRESS.2`, `CITY`, and `STATE`. My thinking was, it'd be a mess to try to geocode using information from 4 columns, so through a dirty process ended up united these four into one. Also preserved the `CITY`and `STATE` columns, in the event that those might be quantified for study. 
 
 Ran into an issue when trying to remove trailing commas, but seemed to have found a bad workaround by misusing `gsub`. `",*$"` wouldn't remove the end-of-string commas, so I added a word to each field following the comma and removed that afterwards:
 
