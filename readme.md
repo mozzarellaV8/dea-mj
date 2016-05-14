@@ -1,6 +1,6 @@
 ## quickclean - DEA list of organizations
 
-_ ...licensed to handle marijuana_
+_...licensed to handle marijuana_
 
 This [list](http://birrenbach.com/INSTITUTE/wp-content/uploads/2016/04/16-00257-F-Final.xlsx.pdf) magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural).
 
