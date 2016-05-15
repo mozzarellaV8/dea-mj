@@ -5,6 +5,7 @@ Notes on the wrangling process; intentions and points to improve.
 - [Registration Date wrangling](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#registration-date-wrangling)
 - [Addresses for geocoding](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#addresses-for-geocoding)
 - [Free User geocoding](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#free-user-geocoding)
+- [Missing Values](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#missing-values)
 
 #### Registration Date wrangling
 
@@ -60,3 +61,7 @@ The other way to bypass this quota is to have an enterprise account / premium us
 In the spirit of open access, I simply divided the [geocoding script](geocode-free.R) so that it could be done in two parts over two days. 
 
 Looking ahead, I may look into writing something using `RCurl` to retrieve latitude and longitude information from OpenStreetMap. 
+
+#### Missing Values
+
+There are 88 missing lat/lon values out of the 2953 total observations. A quick look reveals that some of the addresses were not completely clean from the DEA's original list. 
