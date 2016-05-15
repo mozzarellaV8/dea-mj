@@ -8,4 +8,6 @@ So! What is here is just some simple tidying of the data in R, geared towards pa
 
 - [quickclean.R](https://github.com/mozzarellaV8/dea-mj/blob/master/quickclean.R) - R script
 - [DEA-MJ_clean.csv](https://github.com/mozzarellaV8/dea-mj/blob/master/DEA-MJ_clean.csv) - the result
-- [process](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md) - extended notes
+- [deaMJ-geo.csv](https://github.com/mozzarellaV8/dea-mj/blob/master/deaMJ-geo.csv) - DEA list cleaned, with addresses geocoded
+- [process](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md) - details on process
+- [notes](https://github.com/mozzarellaV8/dea-mj/blob/master/notes.md) - initial EDA/notes on potential uses for list
