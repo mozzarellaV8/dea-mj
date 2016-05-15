@@ -14,4 +14,5 @@ coords <- geocode(mjGeo$GeoAddress, output = "latlon",
 
 mjGeo$lon <- coords$lon
 mjGeo$lat <- coords$lat
-write.table(mjGeo, file = "DEA-MJ-geo.csv", sep = ",", row.names = FALSE)
+
+write.table(mjGeo, file = "deaMJ-geo.csv", sep = ",", row.names = FALSE)
