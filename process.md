@@ -2,6 +2,10 @@
 
 Notes on the wrangling process; intentions and points to improve.
 
+- [Registration Date wrangling](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#registration-date-wrangling)
+- [Addresses for geocoding](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#addresses-for-geocoding)
+- [Free User geocoding](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#free-user-geocoding)
+
 #### Registration Date wrangling
 
 If there were multiple licenses registered on one day, only one date would be added to the spreadsheet and the rest left empty until a new date with new license info was added. I'd begun by converting the blank values to NAs, and below is an illustration of the issue and desired outcome. 
@@ -46,3 +50,13 @@ mj$ADDRESS <- gsub("goddamit", "", mj$ADDRESS)
 ```
 
 Not a proud moment, but will be continuing to learn the nuances of regex and approaches to handling different kinds of messy data. Although now that I think of it, `"goddamit"` could have been replaced with `NA` from the start. 
+
+#### Free User geocoding
+
+`ggmap` pulls geocoding requests from Google Maps Geocoding API, which has a limit in place for 2500 requests per day. It's possible to bypass this limit by aquiring an API key and enabling billing for a 'pay as you go' plan for higher quotas - $0.50 USD per 1000 additional requests, up to 100,000 daily.
+
+The other way to bypass this quota is to have an enterprise account / premium usage plan. 
+
+In the spirit of open access, I simply divided the [geocoding script](geocode-free.R) so that it could be done in two parts over two days. 
+
+Looking ahead, I may look into writing something using `RCurl` to retrieve latitude and longitude information from OpenStreetMap. 
