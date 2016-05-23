@@ -1,0 +1,26 @@
+
+# Albers Equal Area Conic - EPSG:31370 (correct datum shift)
+# +proj=aea +lat_1=29.83333333333334 +lat_2=45.83333333333334 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs 
+
+# Albers Equal Area Conic - East West
+# projectionwizard.org
+# +proj=aea +lat_1=27.104021619160193 +lat_2=47.74792596204824 +lon_0=-97.20703125
+
+# Albers Equal Area Conic - USGS - EPSG:5070
+# 
+#  spatial-reference - SR-ORG:6703
+#  http://gis.stackexchange.com/questions/128190/convert-srtext-to-proj4text
+#  +proj=aea +lon_0=-96 +lat_0=23 +lat_1=29.5 +lat_2=45.5 +datum=NAD83
+
+# EPSG:102003 USA_Contiguous_Albers_Equal_Area_Conic
+# +proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs
+
+# california albers - WGS84 - EPSG 4326
+# +proj=aea +lat_1=30 +lat_2=50 +lat_0=40 +lon_0=-125 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs
+
+# EPSG: 2163 "us atlas"
+# +proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs 
+
+# Web Mercator:  EPSG:3857 
+# Projection used in many popular web mapping applications (Google/Bing/OpenStreetMap/etc). Sometimes known as EPSG:900913.
++proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs
