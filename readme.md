@@ -11,7 +11,7 @@ So! What is here is just some simple tidying of the data in R, geared towards pa
 - [deaMJ-clean.csv](https://github.com/mozzarellaV8/dea-mj/blob/master/DEA-MJ_clean.csv) - DEA list cleaned
 - [deaMJ-geo.csv](https://github.com/mozzarellaV8/dea-mj/blob/master/deaMJ-geo.csv) - DEA list cleaned, with addresses geocoded
 - [process](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md) - details on data wrangling approach
-- [notes](https://github.com/mozzarellaV8/dea-mj/blob/master/notes.md) - initial EDA, notes on potential uses for listb
+- [notes](https://github.com/mozzarellaV8/dea-mj/blob/master/notes.md) - initial EDA, notes on potential uses for list
 
 ### to do 
 
