@@ -8,17 +8,17 @@ So! What is here is just some simple tidying of the data in R, geared towards pa
 
 Scripts: 
 
-- [Continental 48](dea-mj/continental48.R) initial script for mapping of coordinates
-- [quickclean.R](dea-mj/R scripts/quickclean.R) - R script for wrangling
-- [geocode.R](dea-mj/R scripts/geocode.R) - R script for geocoding
-- [geocode-free.R](dea-mj/R scripts/geocode-free.R) - R script for geocoding, split in 2
-- [process](dea-mj/process.md) - details on data wrangling approach
+- [Continental 48](continental48.R) initial script for mapping of coordinates
+- [quickclean.R](R scripts/quickclean.R) - R script for wrangling
+- [geocode.R](R scripts/geocode.R) - R script for geocoding
+- [geocode-free.R](R scripts/geocode-free.R) - R script for geocoding, split in 2
+- [process](process.md) - details on data wrangling approach
 
 Data: 
 
-- [deaMJ-clean.csv](dea-mj/data/DEA-MJ.csv) - DEA list cleaned
-- [deaMJ-geo.csv](dea-mj/data/deaMJ-geo.csv) - DEA list cleaned, with addresses geocoded
-- [Federal List of Prisons](dea-mj/data/FBP.csv) - CSV hand-collected from Federal Bureau of Prisons
+- [deaMJ-clean.csv](data/DEA-MJ.csv) - DEA list cleaned
+- [deaMJ-geo.csv](data/deaMJ-geo.csv) - DEA list cleaned, with addresses geocoded
+- [Federal List of Prisons](data/FBP.csv) - CSV hand-collected from Federal Bureau of Prisons
 
 
 ### to do 
