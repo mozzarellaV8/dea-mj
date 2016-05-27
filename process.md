@@ -64,4 +64,13 @@ Looking ahead, I may look into writing something using `RCurl` to retrieve latit
 
 #### Missing Values
 
-There are 88 missing lat/lon values out of the 2953 total observations. A quick look reveals that some of the addresses were not completely clean from the DEA's original list. 
+There are 88 missing lat/lon values out of the 2953 total observations. A quick look reveals that some of the addresses were not completely clean from the DEA's original list. That's not chill - going to have to go in and investigate.
+
+#### Mapping - round 01
+
+a map in progress - figuring out the relationship between presenting the information and how to draw further conclusions from the information.
+
+![Mercator projection](maps/deaMJ-Delaunay.jpg)
+
+Some initial failures include: thinking WGS84 projection would make the continental US look normal. I actually still haven't found Proj4 encoding for a decent continental US yet...although for geojson this doesn't seem to be a problem. It might be time to convert. 
+
