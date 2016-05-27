@@ -8,9 +8,10 @@ So! What is here is just some simple tidying of the data in R, geared towards pa
 
 Scripts: 
 
-- [Continental 48](https://github.com/mozzarellaV8/dea-mj/blob/master/continental48.R) initial script for mapping of coordinates - continental US. first uses of `rgdal` and `spTransform` for coordinate projections.  
-
-- [quickclean.R](https://github.com/mozzarellaV8/dea-mj/blob/master/quickclean.R) - R script
+- [Continental 48](https://github.com/mozzarellaV8/dea-mj/blob/master/continental48.R) initial script for mapping of coordinates
+- [quickclean.R](https://github.com/mozzarellaV8/dea-mj/blob/master/quickclean.R) - R script for wrangling
+- [geocode.R](https://github.com/mozzarellaV8/dea-mj/blob/master/R%20scripts/geocode.R) - R script for geocoding
+- [geocode-free.R](https://github.com/mozzarellaV8/dea-mj/blob/master/R%20scripts/geocode-free.R) - R script for geocoding, split in 2.
 - [process](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md) - details on data wrangling approach
 
 Data: 
