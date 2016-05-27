@@ -2,10 +2,11 @@
 
 Notes on the wrangling process; intentions and points to improve.
 
-- [Registration Date wrangling](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#registration-date-wrangling)
-- [Addresses for geocoding](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#addresses-for-geocoding)
-- [Free User geocoding](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#free-user-geocoding)
-- [Missing Values](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md#missing-values)
+- [Registration Date wrangling](process.md#registration-date-wrangling)
+- [Addresses for geocoding](process.md#addresses-for-geocoding)
+- [Free User geocoding](process.md#free-user-geocoding)
+- [Missing Values](process.md#missing-values)
+- [Mapping](process.md#mapping---round-01)
 
 #### Registration Date wrangling
 
