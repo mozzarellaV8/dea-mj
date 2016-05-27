@@ -25,4 +25,4 @@ Data:
 
 - look into the NA values in the `deaMJ-geo.csv` list
 - ~~introduce coordinate information from Federal Bureau of Prisons.~~
-- subset all institutions that are not K9 Training units or Prisons. 
+- subset all institutions that are not K9 Training units or Prisons.
