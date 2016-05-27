@@ -8,17 +8,17 @@ So! What is here is just some simple tidying of the data in R, geared towards pa
 
 Scripts: 
 
-- [Continental 48](https://github.com/mozzarellaV8/dea-mj/blob/master/continental48.R) initial script for mapping of coordinates
-- [quickclean.R](https://github.com/mozzarellaV8/dea-mj/blob/master/quickclean.R) - R script for wrangling
-- [geocode.R](https://github.com/mozzarellaV8/dea-mj/blob/master/R%20scripts/geocode.R) - R script for geocoding
-- [geocode-free.R](https://github.com/mozzarellaV8/dea-mj/blob/master/R%20scripts/geocode-free.R) - R script for geocoding, split in 2.
-- [process](https://github.com/mozzarellaV8/dea-mj/blob/master/process.md) - details on data wrangling approach
+- [Continental 48](dea-mj/continental48.R) initial script for mapping of coordinates
+- [quickclean.R](dea-mj/R scripts/quickclean.R) - R script for wrangling
+- [geocode.R](dea-mj/R scripts/geocode.R) - R script for geocoding
+- [geocode-free.R](dea-mj/R scripts/geocode-free.R) - R script for geocoding, split in 2
+- [process](dea-mj/process.md) - details on data wrangling approach
 
 Data: 
 
-- [deaMJ-clean.csv](https://github.com/mozzarellaV8/dea-mj/blob/master/DEA-MJ_clean.csv) - DEA list cleaned
-- [deaMJ-geo.csv](https://github.com/mozzarellaV8/dea-mj/blob/master/deaMJ-geo.csv) - DEA list cleaned, with addresses geocoded
-- [Federal List of Prisons](https://github.com/mozzarellaV8/dea-mj/blob/master/data/FBP.csv) - CSV hand-collected from Federal Bureau of Prisons
+- [deaMJ-clean.csv](dea-mj/data/DEA-MJ.csv) - DEA list cleaned
+- [deaMJ-geo.csv](dea-mj/data/deaMJ-geo.csv) - DEA list cleaned, with addresses geocoded
+- [Federal List of Prisons](dea-mj/data/FBP.csv) - CSV hand-collected from Federal Bureau of Prisons
 
 
 ### to do 
