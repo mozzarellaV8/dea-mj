@@ -15,6 +15,7 @@ library(sp)
 library(maptools)
 library(mapproj)
 
+
 # shapelines from rgdal 
 usa1 <- readOGR(dsn = "data/usa-1", layer = "USA_adm1")
 # 52 features, 12 fields
@@ -32,17 +33,23 @@ summary(usa2)
 # y   18.90986  72.6875
 
 usa1shape <- readShapePoly("data/usa-1/USA_adm1", verbose = TRUE)
-usa1lines <- readShapeLines("data/usa-1/USA_adm1")
+usa1lines <- readShapeLines("data/usa-1/USA_adm1.shp")
+summary(usa1lines)
 
 # spatial plot
 # some latitudes and longitudes are reversed
+
+library(maps)
+par(mar = c(4, 4, 4, 4), family = "HersheySans", bg = "#EEE5DE75")
+map(database = "usa")
+
+
 par(mar = c(2, 2, 2, 2), family = "HersheySans", bg = "#EEE5DE75")
 
 plot(0, 0, bty = "n", asp = 1, axes = FALSE, 
      xlim = c(-128.3, -63.92), 
      ylim = c(21.89, 52.74), 
-     xlab = "", ylab = "", 
-     col = "grey82")
+     xlab = "", ylab = "")
 
 points(prisons$lat, prisons$lon, pch = 19, col = "#8B1A1A12", cex = 1.0)
 points(prisons$lat, prisons$lon, pch = 19, col = "#8B1A1A75", cex = 0.5)
